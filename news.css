@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Inria Sans";
+    src: url(asset/fonts/InriaSans-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    /* overflow-x: hidden; */
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(asset/abstract-grey-geometric-polygon-background-vector.jpg);
+    background-repeat: repeat-y;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#navbar{
+    background-color: rgba(23, 23, 23, 0.714);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+.navbar-items{
+    flex: 1;
+    text-align: center;
+}
+
+.navbar-items ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar-items ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.navbar-items a:hover{
+    color:rgb(196, 91, 255)
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    margin: 50px 0;
+}
+
+.news-grid{
+    justify-content: center;
+    overflow-x: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 50px;
+}
+
+.grid{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.374);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.grid img{
+    width: 100%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.text-box{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.text-box h2{
+    height: 60px;
+}
+
+.text-box p{
+    margin-top: 10px;
+}
+
+p em{
+    color: rgba(195, 91, 255, 0.527);
+}
+
+.news{
+    padding-bottom: 120px;
+}
+
+.footer{
+    background-color: rgb(23, 23, 23);
+    padding: 20px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.footer-container p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-media{
+    margin-left: auto;
+}
+
+.social-media img{
+    height: 40px;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 768px){
+    .news{
+        padding-bottom: 100px;
+    }
+
+    .news-grid{
+        grid-template-columns: repeat(2, 300px);
+    }
+
+    .text-box p{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "Inria Sans";
+    src: url(asset/fonts/InriaSans-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    /* overflow-x: hidden; */
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(asset/abstract-grey-geometric-polygon-background-vector.jpg);
+    background-repeat: repeat-y;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#navbar{
+    background-color: rgba(23, 23, 23, 0.714);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+.navbar-items{
+    flex: 1;
+    text-align: center;
+}
+
+.navbar-items ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar-items ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.navbar-items a:hover{
+    color:rgb(196, 91, 255)
+}
+
+.trailer{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.statistics{
+    padding-bottom: 0px;
+}
+
+.statistics-grid{
+    justify-content: center;
+    overflow-x: auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 270px);
+    gap: 70px;
+    margin: 100px 0;
+}
+
+.info{
+    width: 100%;
+    background-color: rgba(23, 23, 23, 0.45);
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.info h2{
+    font-size: 42px;
+    font-weight: 600;
+    color: rgb(196, 91, 255);
+
+    padding-top: 35px;
+    padding-bottom: 5px;
+}
+
+.info p{
+    font-size: 25px;
+
+    padding-bottom: 35px;
+}
+
+.sponsorships{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.sponsorships h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+
+    margin-bottom: 30px;
+}
+
+.sponsors{
+    margin-bottom: 50px;
+}
+
+.sponsors img{
+    margin: 50px 40px 0;
+}
+
+.footer{
+    background-color: rgb(23, 23, 23);
+    padding: 20px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.footer-container p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-media{
+    margin-left: auto;
+}
+
+.social-media img{
+    height: 40px;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 768px){
+    .trailer video{
+        width: 500px;
+        height: 300px;
+    }
+}

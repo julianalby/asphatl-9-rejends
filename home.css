@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Inria Sans";
+    src: url(asset/fonts/InriaSans-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)), url(asset/abstract-grey-geometric-polygon-background-vector.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#navbar{
+    background-color: rgba(23, 23, 23, 0.714);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+.navbar-items{
+    flex: 1;
+    text-align: center;
+}
+
+.navbar-items ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar-items ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.navbar-items a:hover{
+    color:rgb(196, 91, 255)
+}
+
+.overview-container{
+    overflow-x: auto;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 1;
+}
+
+.content img{
+    width: 40%;
+    height: 40%;
+}
+
+.content p{
+    margin: 20px 70px 0px;
+    font-size: 50px;
+    width: 37%;
+}
+
+.content p em{
+    color: rgb(196, 91, 255);
+    font-size: 80px;
+    width: 100%;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.download-buttons{
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+}
+
+.download-buttons img{
+    padding: 20px 30px;
+    height: 100px;
+}
+
+.footer{
+    background-color: rgb(23, 23, 23);
+    padding: 20px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.footer-container p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-media{
+    margin-left: auto;
+}
+
+.social-media img{
+    height: 40px;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 768px){
+    .overview-container{
+        overflow-x: hidden;
+    }
+
+    .content{
+        margin-top: 10%;
+        display: block;
+        text-align: center;
+        position: relative;
+        left: 0px;
+    }
+
+    .content img{
+        width: 75%;
+    }
+    .content p{
+        margin: auto;
+        margin-top: 40px;
+        font-size: 40px;
+        width: 75%;
+    }
+
+    .content p em{
+        font-size: 60px;
+    }
+
+    .download-buttons{
+        position: relative;
+        left: 7.5%;
+    }
+    
+    .download-buttons img{
+        padding: 40px 15px;
+        height: 60px;
+    }
+}

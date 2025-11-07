@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+    <link rel="stylesheet" href="subcription.css">
+    <script src="subscription.js" defer></script>
+</head>
+<body>
+    <div class="banner">
+        <nav id="navbar">
+            <div class="navbar-items">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="esport.html">Esport</a></li>
+                    <li><a href="subscription.html">Subscription</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header">
+            <h1>Join our community!</h1>
+        </div>
+        <div class="subscription">
+            <form action="">
+                <div class="input-box">
+                    <input type="text" name="username" id="username" placeholder="Username (3-15 characters)">
+                </div>
+                <div class="input-box">
+                    <input type="email" name="email" id="email" placeholder="Email (example@gmail.com)">
+                </div>
+                <div class="input-box">
+                    <input type="date" name="birthdate" id="birthdate">
+                </div>
+                <div class="input-box">
+                    <select name="gender" id="gender">
+                        <option value="" hidden>Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+                <div class="terms-and-conditions">
+                    <label for="agree">
+                        <input type="checkbox" name="agree" id="agree"> I agree to the terms and conditions
+                    </label>
+                </div>
+                <button type="button" onclick="validateData()">SUBSCRIBE</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Gamefolt, All Rights Reserved</p>
+            <div class="social-media">
+                <a target="_blank" href="https://x.com/asphalt"><img src="asset/icons/twitter.png" alt="twitter"></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCphl7N613vv9pgds_LdvpGg"><img src="asset/icons/youtube.png" alt="youtube"></a>
+                <a target="_blank" href="https://www.instagram.com/asphaltgames"><img src="asset/icons/instagram.png" alt="instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
