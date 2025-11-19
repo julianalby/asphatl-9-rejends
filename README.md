@@ -21,31 +21,31 @@ There is also a Figma version of the prototype with a different layout, which ca
 8. The website should automatically open on your default browser
 
 # References
-Font:
+Font:  
 https://fonts.google.com/specimen/Inria+Sans
 
-Social Media Icons:
+Social Media Icons:  
 https://www.figma.com/community/file/839558611085349133
 
-Backgrounds: 
+Backgrounds:  
 https://www.vecteezy.com/vector-art/256154-abstract-grey-geometric-polygon-background
 
-Download Badges:
+Download Badges:  
 https://en.wikipedia.org/wiki/File:Google_Play_Store_badge_EN.svg
 https://commons.wikimedia.org/wiki/File:Download_on_the_App_Store_Badge.svg
 https://commons.wikimedia.org/wiki/File:Get_it_from_Microsoft_Badge.svg
 
-Homepage Screenshot:
+Homepage Screenshot:  
 https://www.pocketgamer.com/asphalt-9-legends/asphalt-9-legends-just-soft-launched-on-ios-in-the-philippines-and-its-definitel/
 
-Gallery Images taken from Asphalt 9 Database:
+Gallery Images taken from Asphalt 9 Database:  
 https://asphalt9.info/asphalt9/tuning/asphalt-9-car-list/
 
-News Articles taken from the official website:
+News Articles taken from the official website:  
 https://asphaltlegends.com/news/
 
-Esport Trailer:
+Esport Trailer:  
 https://www.youtube.com/watch?v=AGLt3ryL2zE
 
-Sponsor Icons taken from the official website:
+Sponsor Icons taken from the official website:  
 https://asphaltlegends.com/esports
