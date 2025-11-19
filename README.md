@@ -8,6 +8,8 @@ The website consists of 5 pages:
 - **Esport**: Shows information about the game's tournaments, including its trailer, number of tournaments held, number of participants, prize money, total races, and sponsors.
 - **Subscription**: A login form with 5 validation rules; username must be 3-15 characters, email must end with @gmail.com, date of birth must be selected, gender must be selected, and the terms and conditions checkbox must be checked.
 
+There is also a Figma version of the prototype with a different layout, which can be found here: https://www.figma.com/design/huPzwZAF5JaqnXYuBlz8Vo/asphatl-9-rejends-prototype?node-id=0-1&t=A1b3LMBAemDPnrUi-1
+
 # How to run in Visual Studio Code
 1. Open Visual Studio Code, if not installed, download from https://code.visualstudio.com/
 2. Go to **Extensions** (Ctrl + Shift + X)
@@ -17,3 +19,33 @@ The website consists of 5 pages:
 6. Right click on "**home.html**"
 7. Select **Open with Live Server**
 8. The website should automatically open on your default browser
+
+# References
+Font:
+https://fonts.google.com/specimen/Inria+Sans
+
+Social Media Icons:
+https://www.figma.com/community/file/839558611085349133
+
+Backgrounds: 
+https://www.vecteezy.com/vector-art/256154-abstract-grey-geometric-polygon-background
+
+Download Badges:
+https://en.wikipedia.org/wiki/File:Google_Play_Store_badge_EN.svg
+https://commons.wikimedia.org/wiki/File:Download_on_the_App_Store_Badge.svg
+https://commons.wikimedia.org/wiki/File:Get_it_from_Microsoft_Badge.svg
+
+Homepage Screenshot:
+https://www.pocketgamer.com/asphalt-9-legends/asphalt-9-legends-just-soft-launched-on-ios-in-the-philippines-and-its-definitel/
+
+Gallery Images taken from Asphalt 9 Database:
+https://asphalt9.info/asphalt9/tuning/asphalt-9-car-list/
+
+News Articles taken from the official website:
+https://asphaltlegends.com/news/
+
+Esport Trailer:
+https://www.youtube.com/watch?v=AGLt3ryL2zE
+
+Sponsor Icons taken from the official website:
+https://asphaltlegends.com/esports
